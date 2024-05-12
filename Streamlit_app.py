@@ -35,12 +35,12 @@ diagnoses = {
 }
 
 # Predicted diagnosis color
-diagnosis_color = '#F63366'
+diagnosis_color = 'white'
 title_color = 'white'  # Title color
 title_css = f"<h1 style='text-align: center; color: {title_color};'>Thyroid Diagnosis Predictor</h1>"
 
 # Detect button color
-detect_button_color = '#F63366'
+detect_button_color = 'white'
 
 # Function to preprocess inputs before prediction
 def preprocess_inputs(age, sex, on_thyroxine, query_on_thyroxine, on_antithyroid_meds, sick, pregnant,
